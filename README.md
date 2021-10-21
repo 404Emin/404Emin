@@ -1,2 +1,0 @@
-# spsp
-PythonSchoolProject
