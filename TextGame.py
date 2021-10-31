@@ -76,6 +76,4 @@ else:
     w3 = ("Skeleton wins!")
 
 
-print ("")
-print ("")
 print (w3)
