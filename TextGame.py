@@ -6,16 +6,34 @@ from typing_extensions import runtime
 def clear():
     os.system (" cls ")
 
+zombieHP = (105)
+trollHP = (130)
+skeletonHP = (95)
 
-zombie = int(input("Ammount of zombies... "))
-troll = int(input("Ammount of trolls... "))
-skeleton = int(input("Ammount of skeletons... "))
 
+zombie = (input("Ammount of zombies... "))
 
-zombie2 = zombie * 105
-troll2 = troll * 120
-skeleton2 = skeleton * 92
+if zombie.isnumeric():
+    zombie2 = int(zombie) * zombieHP
+else:
+    print ("Thats not a number idiot...")
+    exit()
 
+troll = (input("Ammount of trolls... "))
+
+if troll.isnumeric():
+    troll2 = int(troll) * trollHP
+else:
+    print ("Thats not a number idiot...")
+    exit()
+
+skeleton = (input("Ammount of skeletons... "))
+
+if skeleton.isnumeric():
+    skeleton2 = int(skeleton) * skeletonHP
+else:
+    print ("Thats not a number idiot...")
+    exit()
 
 if int(zombie2) > int(troll2):
     W1 = int(zombie2)
