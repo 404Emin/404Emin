@@ -76,4 +76,4 @@ else:
     w3 = ("Skeleton wins!")
 
 
-print (w3)
+print (str(w3))
