@@ -75,5 +75,7 @@ else:
     W3 = int(W2)
     w3 = ("Skeleton wins!")
 
-clear
+
+print ("")
+print ("")
 print (w3)
